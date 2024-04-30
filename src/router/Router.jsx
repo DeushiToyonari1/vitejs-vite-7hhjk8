@@ -8,7 +8,7 @@ export const Router = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route exact path="/" element={<Header><Top /></Header>} />
+                <Route exact path="/" element={<><Header /><Top /></>} />
                 <Route path="/users" element={<HeaderOnly><Users /></HeaderOnly>} />
             </Routes>
         </BrowserRouter>
